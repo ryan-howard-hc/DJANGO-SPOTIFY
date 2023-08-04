@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'JamzApp'
+    'JamzApp',
+    'rest_framework',
+    'Jamz'
+
 ]
 
 MIDDLEWARE = [

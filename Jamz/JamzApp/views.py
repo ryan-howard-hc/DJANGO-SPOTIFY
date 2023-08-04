@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rest_framework import viewsets, generics
+from rest_framework import viewsets, serializers
 from .models import Artist, Genre, Album, Song
 from . import serializers
 from rest_framework.response import Response
